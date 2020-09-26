@@ -1,0 +1,207 @@
+section#inicio{
+	width:90%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#imagenes{
+	width: 100%;
+	height: 450px;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(img/inicio2.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+
+#imagenes p{
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 52px;
+	font-weight: bold;
+}
+
+@keyframes changecolor{
+	0%{
+		color:transparent;
+		transform: translateX(100%);
+	}
+	100%{
+		color: #ffbb00;
+	}
+}
+
+.animacion{
+	width: auto;
+	height: auto;
+	animation: changecolor 5s ease-in-out 1 normal forwards;
+}
+
+
+
+#intro{
+	width: 100%;
+	height: auto;
+	background-color: rgba(34, 41, 36, 0.7);
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	
+}
+
+#titIntro{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 36px;
+}
+
+
+#textointro{
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.mainflexcontenedor{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.contenedorflex{
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	background-color: #099675;
+	padding: 0 10px 10px 10px;
+	box-sizing: border-box;
+	color: black;
+}
+
+.texto{
+	text-align: center;
+}
+
+.imagen{
+	height: 18rem;
+	background-size: cover;
+	background-position: center center;
+}
+
+.margenbottom{
+	margin-bottom: 5px;
+}
+
+.imagencalis{
+	background-image: url(img/calistenia.jpg);
+}
+
+.imagenfuncional{
+	background-image: url(img/funcional.jpg);
+}
+
+.imagenstretch{
+	background-image: url(img/stretching.jpg);
+}
+
+.imagenweight{
+	background-image: url(img/tips.jpg);
+}
+.imagenrunners{
+	background-image: url(img/runners.jpg);
+}
+.imagenhit{
+	background-image: url(img/hit.jpg);
+}
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+#imagenes{
+	height: 390px;
+}
+
+#imagenes p{
+	font-size: 42px;
+}
+
+#intro{
+	line-height: 25px;
+}
+
+
+#titIntro{
+	font-size: 30px;
+}
+
+#textointro{
+	font-size: 18px;
+}
+
+.contenedorflex{
+	width: 49.5%;
+}
+
+.texto{
+	font-size: 14px;
+}
+
+
+}/* Fin de media de 600 a 1023 */
+
+@media all and (max-width: 599px){
+
+section#inicio{
+	width:90%;
+}
+
+#imagenes{
+	width: 100%;
+	height: 250px;
+}
+
+#imagenes p{
+	padding: 5px;
+	font-size: 25px;
+}
+
+#intro{
+	width: 100%;
+	line-height: 20px;
+}
+
+#titIntro{
+	font-size: 26px;
+	line-height: 28px;
+}
+
+#textointro{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.mainflexcontenedor{
+	flex-direction: column;
+}
+
+.contenedorflex{
+	width: 100%;
+}
+
+.margen{
+	margin-left: 0px;
+	margin-top: 5px;
+}
+
+}/* Fin de media celulares*/

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+	<title>Contacto</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilosheaderyfooter.css">
+	<link rel="stylesheet" type="text/css" href="estiloscontacto.css">
+	<script src="https://kit.fontawesome.com/9afcd3da0b.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+</head>
+<body>
+	<header>
+		<div id="logo"><img id="logo" src="img/logo.jpg"></div>
+		<nav id="barrabotoneraPrincipal">
+			<ul class="ulindex">
+				<li class="liindex"><a href="index.html">INICIO</a></li>
+				<li class="liindex"><a href="sobremi.html">SOBRE MI</a></li>
+				<li class="liindex"><a href="rutinas.html">RUTINAS</a></li>
+				<li class="liindex"><a href="servicios.html">SERVICIOS</a></li>
+				<li class="liindex"><a href="contacto.html">CONTACTO</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="cajaflex">
+		<div id="cajaContacto">
+			<h2> Contactame</h2>
+			<p> Para más información, completa el formulario y me pondré en contacto contigo lo antes posible. </p>
+			<ul class="fa-ul">
+  				<li class="listaIconos"><i class="fa-li fas fa-child fa-fw"></i>Luciano Bortolin</li>
+ 				<li class="listaIconos"><i class="fa-li fas fa-at fa-fw"></i>b-lucho@gmail.com</li>
+ 				<li class="listaIconos"><i class="fa-li fas fa-mobile-alt fa-fw"></i>(011)3456-5678</li>
+  				<li class="listaIconos"><i class="fa-li fas fa-map-marked-alt fa-fw"></i>Bs.As. - Olivos</li>
+			</ul>
+			<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52601.50231359186!2d-58.53326698844141!3d-34.5131784535058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb147d4018937%3A0xfa30a67c6ada18f7!2sOlivos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1598560943315!5m2!1ses!2sar" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+	
+		<div id="cajaformulario">
+			<form id="formulario" action="enviar.php" method="post">
+				<input type="text" name="nombre" placeholder="Nombre" class="caja-1">
+				<input type="email" name="email" placeholder="E-mail" class="caja-1" required>
+				<input type="tel" name="telefono" placeholder="Teléfono" class="caja-1">
+				<textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" class="caja-2"></textarea>
+				<br><button type="submit"> Enviar</button>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div id="redes">
+			<a href="https://www.facebook.com/victoria.wigand/" target="blank">
+				<i class="fab fa-facebook-square fa-fw fa-2x iconored"></i>
+			</a>
+			<a href="https://www.instagram.com/vickyswf/?hl=es-la" target="blank">
+				<i class="fab fa-instagram fa-fw fa-2x iconored"></i>
+			</a>
+		</div>
+	</footer>
+</body>
+</html>
