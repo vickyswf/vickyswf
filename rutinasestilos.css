@@ -28,7 +28,7 @@
 }
 
 .h3rutinas{
-	font-size: 20px;
+	font-size: 1.25em;
 	font-weight: normal;
 }
 
@@ -36,7 +36,7 @@
 	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
-	line-height: 23px;
+	line-height: 1.438em;
 	text-align: left;	
 	list-style-type: square;
 	padding-inline-start: 0px;
@@ -44,7 +44,7 @@
 }
 
 .introp{
-	line-height: 23px;
+	line-height: 1.438em;
 	text-align: left;
 }
 .introp2{
@@ -57,14 +57,14 @@
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
-	line-height: 23px;
+	line-height: 1.438em;
 }
 .introp3{
 	width: 50%;
 	margin-right: auto;
 	margin-left: auto;
-	line-height: 23px;
-	font-size: 18px;
+	line-height: 1.278em;
+	font-size: 1.125em;
 	padding: 10px;
 	border: solid;
 	border-color: #ffbb00;
@@ -101,7 +101,7 @@
 
 
 .imagen{
-	height: 18rem;
+	height: 18em;
 	background-size: cover;
 	background-position: center center;
 	position: relative;
@@ -130,6 +130,7 @@
 .imagenhit{
 	background-image: url(img/hit.jpg);
 }
+
 .imagen:before{
 	content:'';
 	position: absolute;
@@ -140,7 +141,6 @@
 	background-color: rgba(0,0,0,0.6);
 }
 
-
 .imagen h2{
 	position: relative;
 	margin-top: 120px;
@@ -148,12 +148,12 @@
 }
 
 .imagen h2:hover{
-	font-size: 36px;	
+	font-size: 2em;	
 }
 
 .texto{
 	text-align: center;
-	font-size: 20px;
+	font-size: 1.25em;
 }
 
 .texto p{
@@ -183,7 +183,7 @@
 }
 
 .imagen h2:hover{
-	font-size: 24px;	
+	font-size: 1.5em;	
 }
 
 
@@ -221,7 +221,7 @@
 }
 
 .imagen h2:hover{
-	font-size: 24px;	
+	font-size: 1.5em;	
 }
 
 .mainflexcontenedor{

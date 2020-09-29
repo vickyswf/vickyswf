@@ -8,8 +8,8 @@ section#inicio{
 
 #imagenes{
 	width: 100%;
-	height: 450px;
-	padding: 20px;
+	height: 28.125em;
+	padding: 1.25em;
 	box-sizing: border-box;
 	background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -22,9 +22,9 @@ section#inicio{
 
 #imagenes p{
 	margin: 0;
-	padding: 10px;
+	padding: 0.192em;
 	box-sizing: border-box;
-	font-size: 52px;
+	font-size: 3.25em;
 	font-weight: bold;
 }
 
@@ -52,7 +52,7 @@ section#inicio{
 	margin-left: auto;
 	color: white;
 	text-align: center;
-	padding: 20px;
+	padding: 1.25em;
 	box-sizing: border-box;
 	
 }
@@ -61,24 +61,24 @@ section#inicio{
 	width: 100%;
 	margin-right:auto;
 	margin-left: auto;
-	border-width: 1.5px;
+	border-width: 0.094em;
 	border-style: solid;
 	background-color:#ffbb00; 
 	border-color:#ffbb00;
 }
 
 #titIntro{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-size: 36px;
+	margin-top: 0.278em;
+	margin-bottom: 0.278em;
+	font-size: 2.25em;
 }
 
 
 #textointro{
-	margin-top: 20px;
-	margin-bottom: 10px;
-	font-size: 20px;
-	line-height: 30px;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-size: 1.25em;
+	line-height: 1.5em;
 }
 
 .mainflexcontenedor{
@@ -95,7 +95,7 @@ section#inicio{
 	display: flex;
 	flex-direction: column;
 	background-color: #099675;
-	padding: 0 10px 10px 10px;
+	padding: 0 0.625em 0.625em 0.625em;
 	box-sizing: border-box;
 	color: black;
 }
@@ -105,13 +105,13 @@ section#inicio{
 }
 
 .imagen{
-	height: 18rem;
+	height: 18em;
 	background-size: cover;
 	background-position: center center;
 }
 
 .margenbottom{
-	margin-bottom: 6px;
+	margin-bottom: 0.375em;
 }
 
 .imagencalis{
@@ -140,24 +140,20 @@ section#inicio{
 @media all and (min-width: 600px) and (max-width: 1023px){
 
 #imagenes{
-	height: 390px;
+	height: 24.375em;
 }
 
 #imagenes p{
-	font-size: 42px;
+	font-size: 2.625em;
+	padding: 0.238em;
 }
-
-#intro{
-	line-height: 25px;
-}
-
 
 #titIntro{
-	font-size: 30px;
+	font-size: 1.875em;
 }
 
 #textointro{
-	font-size: 18px;
+	font-size: 1.125em;
 }
 
 .contenedorflex{
@@ -165,7 +161,7 @@ section#inicio{
 }
 
 .texto{
-	font-size: 14px;
+	font-size: 0.875em;
 }
 
 
@@ -181,27 +177,26 @@ section#inicio{
 
 #imagenes{
 	width: 100%;
-	height: 250px;
+	height: 15.625em;
 }
 
 #imagenes p{
-	padding: 5px;
-	font-size: 25px;
+	padding: 0.2em;
+	font-size:1.563em;
 }
 
 #intro{
 	width: 100%;
-	line-height: 20px;
 }
 
 #titIntro{
-	font-size: 26px;
-	line-height: 28px;
+	font-size: 1.625em;
+	line-height: 1.077em;
 }
 
 #textointro{
-	font-size: 14px;
-	line-height: 20px;
+	font-size: 0.875em;
+	line-height: 1.429em;
 }
 
 .mainflexcontenedor{
@@ -215,8 +210,8 @@ section#inicio{
 }
 
 .margen{
-	margin-left: 0px;
-	margin-top: 5px;
+	margin-left: 0;
+	margin-top: 0.313em;
 }
 
 }/* Fin de media celulares*/
