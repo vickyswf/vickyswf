@@ -1,5 +1,5 @@
 section#inicio{
-	width:90%;
+	width:100%;
 	height:auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -32,7 +32,6 @@ section#inicio{
 @keyframes changecolor{
 	0%{
 		color:transparent;
-		transform: translateX(100%);
 	}
 	100%{
 		color: #ffbb00;
@@ -42,7 +41,7 @@ section#inicio{
 .animacion{
 	width: auto;
 	height: auto;
-	animation: changecolor 5s ease-in-out 1 normal forwards;
+	animation: changecolor 5s ease-in 1 normal forwards;
 }
 
 
@@ -68,6 +67,7 @@ section#inicio{
 
 #textointro{
 	margin-top: 20px;
+	margin-bottom: 10px;
 	font-size: 20px;
 	line-height: 30px;
 }
@@ -100,7 +100,7 @@ section#inicio{
 }
 
 .margenbottom{
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 }
 
 .imagencalis{

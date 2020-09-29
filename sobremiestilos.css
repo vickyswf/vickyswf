@@ -4,7 +4,7 @@
 }
 
 .contenedorflex{
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -27,7 +27,7 @@ h2{
 }
 
 p{
-	text-align: justify;
+	text-align: left;
 	line-height: 23px;
 }
  

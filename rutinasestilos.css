@@ -5,7 +5,7 @@
 
 
 .contenedorintro{
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -18,11 +18,10 @@
 	text-align: center;
 }
 
-.h1rutinas{
+.h2rutinas{
 	text-decoration: underline;
 	text-decoration-color: #099675;
 	text-underline-position: under;
-	font-size: 30px;
 }
 
 .h3rutinas{
@@ -30,8 +29,8 @@
 }
 
 .ulrutinas{
-	margin-left: 30px;
-	margin-top: 35px;
+	margin-left: 70px;
+	margin-right: 70px;
 	font-size: 20px;
 	text-align: left;	
 }
@@ -50,8 +49,17 @@
 	border-color: #ffbb00;
 }
 
+.introp2 a{
+	text-decoration: none;
+	color: white;
+}
+
+.introp2 a:hover{
+	color:#099675;
+}
+
 .mainflexcontenedor{
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -127,14 +135,20 @@
 	font-size: 20px;
 }
 
+.texto p{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
 .margenbottom{
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 }
 
 @media all and (min-width: 600px) and (max-width: 1023px){
 
+
 .ulrutinas{
 	margin-left: 10px;
+	margin-right: 0px;
 	font-size: 18px;	
 }
 
@@ -145,19 +159,19 @@
 
 .contenedorflex{
 	width: 49.5%;
-	
 }
-
 
 .imagen h2:hover{
 	font-size: 24px;	
 }
+
 
 } /*Fin media min 600 max 1023*/
 
 @media all and (max-width: 599px){
 
 .contenedorintro{
+	width: 90%;
 	flex-direction: column;
 }
 
@@ -169,12 +183,21 @@
 	width: 100%;
 }
 
+.contintrorutinaresponsive{
+	text-align: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
 .h3rutinas{
 	font-size: 22px;
 }
 
 .ulrutinas{
-	margin-left: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-inline-start: 28px;
+	padding-inline-end: 5px;
 	font-size: 20px;
 }
 
@@ -187,7 +210,11 @@
 }
 
 .mainflexcontenedor{
+	width: 90%;
 	flex-direction: column;
+}
+.margenbottom{
+	margin-bottom: 5px;
 }
 
 
