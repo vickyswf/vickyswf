@@ -67,7 +67,7 @@ p{
 }
 
 .caja-1{
-	width: 100%;
+	width: auto;
 	height: 2.143em;
 	margin-top: 1.429em;
 	background: none;
@@ -80,7 +80,7 @@ p{
 }
 
 .caja-2{
-	width: 100%;
+	width: auto;
 	height: 8.571em;
 	margin-top: 1.429em;
 	font-family: 'Arvo';
