@@ -4,7 +4,7 @@
 }
 
 section{
-	width: 100%;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -43,6 +43,16 @@ section{
 
 
 @media all and (max-width: 599px){
+
+section{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.proxp{
+	font-size: 1.5em;
+}
 .contenedorintro{
 	flex-direction: column;
 	

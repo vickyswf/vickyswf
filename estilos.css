@@ -1,15 +1,14 @@
 section#inicio{
 	width:100%;
 	height:auto;
-	margin-left: auto;
-	margin-right: auto;
+	display: flex;
+	flex-direction: column;
 }
 
 
 #imagenes{
 	width: 100%;
 	height: 450px;
-	float: left;
 	padding: 20px;
 	box-sizing: border-box;
 	background-image: linear-gradient(
@@ -47,15 +46,25 @@ section#inicio{
 
 
 #intro{
-	width: 100%;
+	width: 95%;
 	height: auto;
-	background-color: rgba(34, 41, 36, 0.7);
-	float: left;
+	margin-right: auto;
+	margin-left: auto;
 	color: white;
 	text-align: center;
 	padding: 20px;
 	box-sizing: border-box;
 	
+}
+
+.hrintro{
+	width: 100%;
+	margin-right:auto;
+	margin-left: auto;
+	border-width: 1.5px;
+	border-style: solid;
+	background-color:#ffbb00; 
+	border-color:#ffbb00;
 }
 
 #titIntro{
@@ -73,7 +82,9 @@ section#inicio{
 }
 
 .mainflexcontenedor{
-	width: 100%;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -100,7 +111,7 @@ section#inicio{
 }
 
 .margenbottom{
-	margin-bottom: 7px;
+	margin-bottom: 6px;
 }
 
 .imagencalis{
@@ -164,6 +175,8 @@ section#inicio{
 
 section#inicio{
 	width:90%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #imagenes{
@@ -192,7 +205,9 @@ section#inicio{
 }
 
 .mainflexcontenedor{
+	width: 100%;
 	flex-direction: column;
+
 }
 
 .contenedorflex{

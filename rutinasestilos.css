@@ -5,7 +5,7 @@
 
 
 .contenedorintro{
-	width: 100%;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -16,6 +16,8 @@
 	background-color: rgba(34, 41, 36, 0.7);
 	color: white;
 	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
 }
 
 .h2rutinas{
@@ -25,41 +27,58 @@
 }
 
 .h3rutinas{
-	font-size: 22px;
+	font-size: 20px;
+	font-weight: normal;
 }
 
 .ulrutinas{
-	margin-left: 70px;
-	margin-right: 70px;
-	font-size: 20px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 23px;
 	text-align: left;	
+	list-style-type: square;
+	padding-inline-start: 0px;
 }
 
 .introp{
-	font-size: 20px;
+	line-height: 23px;
+	text-align: left;
 }
-
 .introp2{
+	width: 108px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+.introp4{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 23px;
+}
+.introp3{
 	width: 50%;
 	margin-right: auto;
 	margin-left: auto;
-	font-size: 20px;
+	line-height: 23px;
+	font-size: 18px;
 	padding: 10px;
 	border: solid;
 	border-color: #ffbb00;
 }
 
-.introp2 a{
+.introp3 a{
 	text-decoration: none;
 	color: white;
 }
 
-.introp2 a:hover{
+.introp3 a:hover{
 	color:#099675;
 }
 
 .mainflexcontenedor{
-	width: 100%;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -140,20 +159,20 @@
 	margin-bottom: 0px;
 }
 .margenbottom{
-	margin-bottom: 7px;
+	margin-bottom: 6px;
 }
 
 @media all and (min-width: 600px) and (max-width: 1023px){
 
-
 .ulrutinas{
-	margin-left: 10px;
-	margin-right: 0px;
-	font-size: 18px;	
+	width: 89%;
 }
 
-.introp{
-	font-size: 18px;
+.introp2{
+	width: 108px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
 }
 
 
@@ -185,24 +204,18 @@
 
 .contintrorutinaresponsive{
 	text-align: left;
-	padding: 10px;
-	box-sizing: border-box;
 }
 
-.h3rutinas{
-	font-size: 22px;
+.h2rutinas{
+	text-align: center;
 }
+
 
 .ulrutinas{
-	margin-left: 0px;
+	width: 90%;
+	margin-left: 20px;
 	margin-right: 0px;
-	padding-inline-start: 28px;
-	padding-inline-end: 5px;
-	font-size: 20px;
-}
-
-.introp{
-	font-size: 20px;
+	
 }
 
 .imagen h2:hover{
@@ -216,7 +229,6 @@
 .margenbottom{
 	margin-bottom: 5px;
 }
-
 
 .margen{
 	margin-left: 0px;
